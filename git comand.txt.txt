@@ -1,2 +1,22 @@
 1. git status
-2.git -
+2.git -version
+3.git add .
+4.git config --global user .name
+5.
+
+
+…or create a new repository on the command line
+echo "# intoduction-git" >> README.md
+1.git init
+2.git add README.md
+
+git commit -m "first commit"
+3.git branch -M main
+
+git remote add origin https://github.com/siddhivinayak23/intoduction-git.git
+4.git push -u origin main
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/siddhivinayak23/intoduction-git.git
+5.git branch -M main
+6.git push -u origin main
